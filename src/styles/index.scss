@@ -1,0 +1,58 @@
+@import './variables.scss';
+
+@import './auth.scss';
+@import './menu.scss';
+@import './components/Login.scss';
+
+.native-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+ion-item {
+  --padding-start: 0;
+}
+
+.ionic-table {
+  width: 100%;
+
+  thead {
+    background: rgba(#3880ff, 0.4);
+
+    @media only screen and (max-width: 1300px) {
+      display: none;
+    }
+  }
+
+  tr {
+    @media only screen and (max-width: 1300px) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12px;
+    }
+  }
+
+  td,
+  th {
+    border: 1px solid #e3edff;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e3edff;
+
+    // @media (prefers-color-scheme: dark) {
+    //   background-color: #222222;
+    // }
+  }
+}
+
+.h-full {
+  height: 100% !important;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

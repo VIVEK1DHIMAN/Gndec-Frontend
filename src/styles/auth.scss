@@ -1,0 +1,28 @@
+.auth {
+  ion-content {
+    height: 100%;
+
+    .form-grid {
+      height: 100%;
+
+      .form-container {
+        height: 100%;
+
+        .card-container {
+          max-width: 480px;
+          margin: auto;
+
+          ion-button[button-type='clear'] {
+            white-space: normal;
+            text-align: center;
+            width: 100%;
+          }
+
+          ion-button[type='submit'] {
+            margin-top: 18px;
+          }
+        }
+      }
+    }
+  }
+}

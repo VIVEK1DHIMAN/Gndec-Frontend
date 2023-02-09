@@ -1,0 +1,14 @@
+{
+  "appId": "io.ionic.GndecSportsMeet",
+  "appName": "Gndec SportsMeet 2023",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "androidStudioPath": "/opt/android-studio/bin/studio.sh",
+  "cordova": {}
+}
