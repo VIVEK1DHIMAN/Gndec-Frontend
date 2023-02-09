@@ -1,0 +1,4 @@
+io/ionic/GndecSportsMeet/MainActivity.java
+ io.ionic.GndecSportsMeet.MainActivity
+io/ionic/GndecSportsMeet/BuildConfig.java
+ io.ionic.GndecSportsMeet.BuildConfig
